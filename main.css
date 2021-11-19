@@ -1,0 +1,441 @@
+body {
+
+	font-family: 'Montserrat', sans-serif;
+ 
+}
+
+.wrap_menu{
+     background-color:black;
+    overflow: hidden;
+    margin-top: -68px;
+  
+}
+.wrap_menu a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+
+}
+.topnav a:hover{
+    background-color: black;
+    color: white;
+}
+
+/* Change the color of links on hover */
+.wrap_menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.wrap_menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.main_menu
+{
+     background-color:black;
+    
+    
+}
+a:hover:not(.main_menu) {
+    background-color: #4CAF50;
+}
+
+
+.wrap-menu-header {
+  position: absolute;
+     display: inline;
+  width: 100%;
+  height: 120px;
+  top: 0;
+  z-index: 100;
+
+  display: block;
+    padding: 8px;
+    background-color: black;
+    float: left;
+}
+.menu{
+    float: left;
+    margin-left: 10px;
+}
+.menu ul li{
+    float:left;
+    text-decoration: none;
+    
+    margin-left: 110px;
+}
+.menu ul{
+    text-decoration: none;
+}
+
+
+
+/* Utilty Classes*/
+
+
+
+.img-responsive {
+
+  max-width: 100%;
+    
+
+}
+
+
+
+.hero_image {
+
+	background: url(heroimage.jpg) no-repeat;
+
+	-webkit-background-size: cover;
+
+	background-size: cover;
+
+	height: 100vh;
+
+	position: relative;
+
+}
+
+
+.hero_wrapper {
+
+	color: red;
+
+	position: absolute;
+
+	top: 30%;
+
+	left: 25%;
+
+	transform: translate(-50%,-50%);
+
+}
+
+
+.hero_wrapper h1 {
+    font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	font-weight: 6000;
+	text-align: center;
+
+}
+
+
+.hero_wrapper span {
+
+	margin-left: 5rem;
+
+	display: inline-block;
+
+	margin-bottom: .5rem;
+
+}
+p{
+    font-family: verdana;
+}
+
+
+.form_code {
+
+	text-align: center;
+
+}
+
+
+
+.form_code .post_code {
+
+	display: block;
+
+	width: 80%;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+	border-radius: 2rem;
+
+	padding: .6rem;
+
+	border:none;
+
+	outline:none;
+
+}
+
+.form_code button {
+
+	width: 40%;
+
+	text-align: center;
+
+	background-color: #00bab1;
+
+	color: white;
+
+	padding: .6rem;
+
+	margin:1rem auto 0rem;
+
+	border:navy;
+
+	border-radius: .3rem;
+
+}
+/*[ Logo ]
+-----------------------------------------------------------
+*/
+.logo a
+{
+	line-height: 1.75;
+	color:red;
+	font-size: 27px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.logo a span
+{
+	position: relative;
+	font-size: 30px;
+	color: #32c69a;
+	line-height: 0.75;
+	vertical-align: text-top;
+}
+
+/*  Product Section */
+.product {
+    
+    width: 100%;
+    background-color:black;
+    -webkit-background-color:black;
+	margin-top: .3rem;
+    
+
+
+}
+
+
+
+.product__list__item {
+
+	float: left;
+    padding-left: 17px;
+	width: 32%;
+    color:whitesmoke;
+	margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+.product__list__item:first-of-type {
+
+	margin-left: 0;
+   
+}
+
+@media screen and (max-width: 700px) {
+
+	.product__list__item { 
+
+		width: 100%;
+
+		float: none;
+
+	}
+
+}
+.product_heading
+{
+    text-align:center;
+    color:white;
+}
+
+@media (max-width: 576px) {
+  .bg-title-page .tit6 {font-size: 30px;}
+}
+
+.txt15
+{
+	color:palegreen;
+    
+}
+.txt13
+{
+    background-color:white;
+    text-align: left;
+    color: red;
+    font-size:x-large;
+}
+.container {
+      width: 100%;
+    background-color:black;
+    
+}
+.container1 {
+    width: 30%;
+  background-color:darkgray;
+}
+.bg1
+{
+    background-color: black;
+    text-align: left;
+    color: white;
+   
+    
+}
+.tit2
+{
+     text-align: center;
+    background-color: black;
+    color:palegreen;
+	font-size: 3rem; 
+	font-weight: bolder;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+.tit5{
+    text-align: center;
+    background-color: black;
+    color:white;
+}
+.tit3
+{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color:white;
+    }
+
+.txt9
+{
+    text-align: auto;
+    color:whitesmoke
+    
+}
+.t-center
+{
+    text-align: center;
+}
+/*[ Button3 ]
+///////////////////////////////////////////////////////////
+*/
+.btn3 {
+  background: #111111;
+  border-radius: 10px;
+
+
+}
+
+.btn3:hover {
+  background-color: #ec1d25;
+  color: white;
+        text-align: center;
+}
+.selection-1
+{
+ display: block;
+
+	width: 80%;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+	border-radius: 2rem;
+
+	padding: .6rem;
+
+	border:none;
+
+	outline:none;
+   
+}
+
+.txt9 span{
+    margin-top: 20px;
+}
+.opc
+{
+    width: 30%;
+	text-align: center;
+    font-size: larger;
+    font-weight: inherit;
+    font-style: italic;
+	background-color: turquoise;
+    color: black;
+	padding: .6rem;
+	margin:1rem auto 0rem;
+	border: none;
+	border-radius: 1rem;
+
+}
+.grid-item{
+   width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+ 
+    
+}
+.grid-container{
+
+display: inline-block;  
+    text-align: justify;
+}
+.aa{
+      color:blue;  
+}
+.bb{
+    float: left;
+    color: green;
+    
+}
+div.gallery {
+    margin: 5px;
+    margin-right: auto;
+    border: 1px solid #777;
+    float: left;
+    width: 24%;
+    margin-left: auto;
+    padding: 5px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+    padding: 5px;
+}
+
+div.gallery img {
+    width: 50%;
+    height: auto;
+}
+
+div.desc {
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.card {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 10px 6px 10px 0 rgba(52, 223, 9, 0.883);
+    transition: 0.8s;
+    background-color: gray ;
+  }
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+	box-shadow: 16px 8px 16px 0 gray;
+  } 
+  /* Add some padding inside the card container */
+  .container {
+	padding: 4px 20px;
+	color:rgba(52, 223, 9, 0.883);
+  }
